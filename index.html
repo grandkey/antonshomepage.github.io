@@ -1,132 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Anton's homepage</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/favicon.png" type="image/x-icon">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserat:400,900&display=swap">
-	<link rel="stylesheet" href="css/allmin.css">
+  <head>
+    <meta charset="utf-8">
+    <title>Grand Keys</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
 	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-	<header class="header">
-		<div class="nav">
-			<img src="img/logo.png" alt="Anton">
-			<a href="mailto:gene.1989.02.07@mail.ru" class="mail">
-				gene.1989.02.07@mail.ru
-			</a>
-		</div>
-		<div class="offer">
-			<h1>
-				Anton
-			</h1>
-			<p>
-				#User Experience #Music #Creative
-			</p>
-		</div>
-	</header>
-	<section class="about">
-		<div class="container">
-			<div class="man"></div>
-			<div class="text">
-				<h3>
-					Hi, I'm Anton, web-designer from Ukraine.
-				</h3>
-				<p>
-					This is my first web-page made by myself...I want you to see this web-site and say your opinion to my email.
-				</p>
-				<p>
-					Any opinion very important for me!
-					I approciate it!
-				</p>
-				<a href="#" class="btn">
-					Hire me
-				</a>
+  </head>
+    <body>
+    	<header>
+    		<script src="js/main.js"></script>
+       		<div class="nav">
+    			<text>Мы рaботаем:<br> Пн-Пт: с 10 до 20<br>Сб-Вс: с 12- 16
+    			</text>
+      		</div>
+      		<img src="img/logo.png">
+        </header>
+        <section class="about">
+        	<div class="tab">
+  				<button class="tablinks" onclick="openText(event, 'Главная')">Главная</button>
+  				<button class="tablinks" onclick="openText(event, 'О нас')">О нас</button>
+  				<button class="tablinks" onclick="openText(event, 'Новости')">Новости</button>
 			</div>
-		</div>
-	</section>
-	<section class="proccess">
-		<div class="container">
-			<div class="heading">
-				<h2>
-					My working process
-				</h2>
-				<p>
-					It's my working process
-				</p>
-				<ul class="steps">
-					<li>
-						<div>
-							<img src="img/monitor.png" alt="Design">
-							<h4>
-								Design
-							</h4>
-						</div>
-					</li>
-					<li>
-						<div>
-							<img src="img/plane.png" alt="Launch">
-							<h4>
-								Launch
-							</h4>
-						</div>
-					</li>
-					<li>
-						<div>
-							<img src="img/params.png" alt="Testing">
-							<h4>
-								Testing
-							</h4>
-						</div>
-					</li>
-					<li>
-						<div>
-							<img src="img/wand.png" alt="Development">
-							<h4>
-								Development
-							</h4>
-						</div>
-					</li>
-				</ul>
+
+			<div id="Главная" class="tabcontent">
+  				<p>Покупайте ключи, аккаунтык играм у нас!!!</p>
+  				<p>Вся информация доступна в нашем инстаграме:</p>
+  				<a href="https://www.instagram.com/grand.keys/">@grand.keys</a>
+  				<p>и на нашей почте grand.keys@inbox.ru</p>
+  				<p>Наш менеджер ответит вам в течении 2 часов.</p>
+  				<p>Возврат денег возможен только первые 14 часов</p>
+  				<p>Оплата возможна: PayPal, QiWi, WebMoney, а также </p>
+  				<p>на карточку Приват Банка.</p>
 			</div>
-		</div>
-	</section>
-	<footer class="footer">
-		<div class="container">
-			<u; class="socials">
-				<li>
-					<a href="#">
-						<i class="fab fa-twitter" target='_blank' rel='nofollow'>
-							
-						</i>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i class="fab fa-linkedin" target='_blank' rel='nofollow'>
-							
-						</i>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i class="fab fa-behance" target='_blank' rel='nofollow'>
-							
-						</i>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i class="fab fa-behance" target='_blank' rel='nofollow'>
-							
-						</i>
-					</a>
-				</li>
-			</ul>
-			<p class="footer-text">
-				Copiright: All Rights Reserved.
-			</p>
-		</div>
-	</footer>
-</body>
+
+			<div id="О нас" class="tabcontent">
+  				<p>Мы занимаемся продажей ключей и аккаунтов к играм.</p>
+  				<p>На данный момент у нас есть в наличии ключи к GTA 5</p>
+  				<p>и аккаунты Assassin’s Creed: Unity</p>
+  				<p>Почему стоить покупать у нас:</p>
+  				<p>-Низкая цена</p>
+  				<p>-Гарантия</p>
+  				<p>-Ни один из аккаунтов или ключей не краденный</p>
+  				<p>-Вы всегда можете зайти на наши соц сети и посмотреть отзывы</p>
+			</div>
+
+			<div id="Новости" class="tabcontent">
+ 			 	<p>Скорее, скорее успейте перейти на наш инстаграм и подписаться!!!</p>
+ 			 	<p>1 августа у нас пройдет рзыгрыш одного аккаунта Assassin’s Creed: Unity</p>
+ 			 	<p>между нашими подписчиками!!!</p>
+			</div>
+        </section>
+        <footer>
+           	<p>support:
+        		<a href="mailto:grand.keys@inbox.ru">grand.keys@inbox.ru</a>
+        	</p>
+        </footer>
+    </body>
+</html>
